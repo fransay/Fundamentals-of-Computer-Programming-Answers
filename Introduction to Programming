@@ -1,0 +1,66 @@
+Question 5
+
+using System;  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Good day");
+            Console.ReadLine();  
+        }
+    }
+}    
+------------------------------------------------------
+Question 6
+
+using System;
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Francis Annin");
+            Console.ReadLine();  
+        }
+    }
+} 
+--------------------------------------------------------
+Question 7
+using System;
+  
+
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(1);
+            Console.WriteLine(101);
+            Console.WriteLine(1001);
+            Console.ReadLine();  
+        }
+    }
+}    
+ ---------------------------------------------------------
+ Question 8
+ using System;
+  
+
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DateTime now = DateTime.Now;
+            Console.WriteLine(now);
+            Console.ReadLine();  
+        }
+    }
+}    
+
+ 
