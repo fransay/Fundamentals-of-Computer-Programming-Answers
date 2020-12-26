@@ -1,0 +1,250 @@
+Question 1
+// Note: solution to this question varies  
+ 
+using System;
+
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int number1 = 52130;
+            sbyte number2 = -115;
+            long number3 = 4825932;
+            byte number4 = 97;
+            int number5 = -10000;
+            int number6 = 20000;
+            decimal number7 = 970700000M;
+            byte number8 = 112;
+            sbyte number9 = -44;
+            long number10 = 1000000;
+            int number11 = 1990;
+            decimal number12 = 123456789123456789M;
+            Console.ReadLine();  
+        }
+    }
+}    
+--------------------------------------------------------------------------
+Question 2 
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float num1 = 34.567839023f;
+            double num2 = 5;
+            float num4 = -5.01f;
+            double num5 = 12.345;
+   
+   decimal num6 = 8923.1234857M;
+            decimal num3 = 3456.091124875956542151256683467M;
+            Console.ReadLine();  
+        }
+    }
+} 
+-----------------------------------------------------------------------------
+Question 3
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter your numbers");
+            float a = float.Parse(Console.ReadLine());
+            float b = float.Parse(Console.ReadLine());
+
+            bool equal = (a - b) < 0.000001;
+            Console.WriteLine(equal);
+            Console.ReadLine();  
+        }
+    }
+}    
+ 
+ ----------------------------------------------------------------------------
+ Question 4
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numberInHexadecimal = 0x100; 
+            Console.ReadLine();  
+        }
+    }
+}    
+ -------------------------------------------------------------------------------
+ Question 5
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char unicodeCharacter = 'H';
+            Console.WriteLine((int)(unicodeCharacter));
+            Console.ReadLine();  
+        }
+    }
+}    
+ ----------------------------------------------------------------------------------
+ Question 6
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool isMale = true;
+            Console.ReadLine();  
+        }
+    }
+}    
+ -----------------------------------------------------------------------------------
+ Question 7
+ 
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string hello = "Hello";
+            string world = "World";
+            object valueOfConcatenation = hello + " " + world;
+            Console.WriteLine(valueOfConcatenation);
+            Console.ReadLine();  
+        }
+    }
+}    
+ ---------------------------------------------------------------------------------------
+ Question 8
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string hello = "Hello";
+            string world = "World";
+            object valueOfConcatenation = hello + " " + world;
+            string helloWorld;
+            Console.WriteLine(valueOfConcatenation);
+            Console.ReadLine();  
+        }
+    }
+}   
+-----------------------------------------------------------------------------------------
+ Question 9
+ 
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string firstSentence = "The \"use\" of quotations causes difficulties";
+            string secondSentence = "The use of quotations causes difficulties";
+            Console.WriteLine(firstSentence);
+            Console.WriteLine(secondSentence);
+            Console.ReadLine();  
+        }
+    }
+}    
+ 
+ -----------------------------------------------------------------------------------
+ 
+ Question 10
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine( "oo                   oo");
+            Console.WriteLine(" o                   o");
+            Console.WriteLine("  o       o          o");
+            Console.WriteLine("   o               o");
+            Console.WriteLine("    o            o");
+            Console.WriteLine("     o         o");
+            Console.WriteLine("      o      o");
+            Console.WriteLine("       o   o");
+            Console.WriteLine("         o");
+// Design of the shape of the heart is relative. LoL you should make yours a better one
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ --------------------------------------------------------------------------------
+Question 11 
+ 
+ Same solution as question 10
+ -------------------------------------------------------------------------------- 
+ Question 12
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string firstName;
+            string lastName;
+            int age;
+            string gender;
+            int uniqueEmployerNumber;
+
+
+            Console.ReadLine();  
+        }
+    }
+}    
+  -------------------------------------------------------------------------------- 
+  Question 13
+  using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int firstValue = 5;
+            int secondValue = 10;
+            
+            
+            Console.WriteLine("The first Value is {1} and the se" +
+                "cond value is  {0}", firstValue, secondValue);
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ 
+ 
