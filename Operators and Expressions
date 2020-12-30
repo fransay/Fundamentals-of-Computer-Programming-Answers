@@ -1,0 +1,64 @@
+Question 1
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // An expression whether an integer is even or odd
+            Console.Write("Enter your integer = ");
+            int userNumber = int.Parse(Console.ReadLine());
+
+            if (userNumber % 2== 0)
+            {
+                Console.WriteLine("Your number is even");
+            }
+            else if (userNumber % 2 == 1)
+            {
+                Console.WriteLine("Your number is odd");
+            }
+            Console.ReadLine();  
+        }
+    }
+}    
+ ------------------------------------------------------------------------
+ Question 2
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // An expression whether an integer is even or odd
+            Console.Write("Enter your integer = ");
+            int userNumber = int.Parse(Console.ReadLine());
+
+            int checkBy5 = userNumber % 5;
+            int checkBy7 = userNumber % 7;
+            bool divisibleBy5 = checkBy5 == 0;
+            bool divisibleBy7 = checkBy7 == 0;
+            if (divisibleBy5 & divisibleBy7)
+            {
+                Console.WriteLine("The number is divisible by both 5 and 7");
+
+            }
+            else
+            {
+                Console.WriteLine("The number is not divisible by both 5 and 7");
+
+            }
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ ---------------------------------------------------------------------------------
+ Question 3
+ 
