@@ -61,4 +61,138 @@ namespace IntroductionToProgramming
 }    
  ---------------------------------------------------------------------------------
  Question 3
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // An expression whether an integer is even or odd
+            Console.Write("Enter your integer = ");
+            int userNumber = int.Parse(Console.ReadLine());
+
+            int dividedBy100 = userNumber / 100;
+            int dividedBy10R = userNumber % 10;
+            if (dividedBy10R == 7)
+            {
+                Console.WriteLine("The third digit is 7");
+            }
+            else
+            {
+                Console.WriteLine("The third is not 7");
+            }
+
+            Console.ReadLine();  
+        }
+    }
+}    
+------------------------------------------------------------------------------
+ Question 4
  
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your Integer = ");
+            string integer = Console.ReadLine();
+            
+            Console.WriteLine("The third bit is " +integer[2]);
+
+            
+            Console.ReadLine();  
+        }
+    }
+}    
+ -----------------------------------------------------------------------------
+ Question 5
+ 
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // To find the area of a trapeziod, we need the parallel sides and the height
+            Console.Write("Enter your first side = ");
+            double firstSide = double.Parse(Console.ReadLine());
+
+            Console.Write("Enter your Second side = ");
+            double secondSide = double.Parse(Console.ReadLine());
+
+            Console.Write("Enter your height side = ");
+            double height = double.Parse(Console.ReadLine());
+
+            double areaOftrapezium = (0.5 * (firstSide + secondSide)) * height;
+
+            Console.WriteLine("Area of the trapezium is = {0}", areaOftrapezium);
+
+
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ --------------------------------------------------------------------------------
+ Question 6
+ 
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your Length = ");// Accepting user input for length
+            double length = double.Parse(Console.ReadLine());
+
+            Console.Write("Enter your width = ");
+            double width = double.Parse(Console.ReadLine());
+
+            double perimeterOfRectangle = 2 * length + 2 * width;
+            Console.WriteLine("The perimeter of the rectangle is = " + perimeterOfRectangle);
+
+            
+
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ ---------------------------------------------------------------------------------
+ Question 7
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Calcuating the grativational field on the moon
+            // given the weight on earth 
+
+
+            Console.Write("What is your weight on earth  = ");
+            double weightOnEarth = double.Parse(Console.ReadLine());
+
+            double weightonMoon = (17 / 100) * weightOnEarth;
+            Console.WriteLine("Your weight on the moon " +
+                "is = " + weightonMoon);
+            
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ ---------------------------------------------------------------------------------
+ Question 8
