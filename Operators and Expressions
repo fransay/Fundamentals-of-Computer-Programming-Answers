@@ -292,3 +292,34 @@ namespace IntroductionToProgramming
     }
 }    
  Question 10
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            //Question 10
+            // To get the individual digits of the number 
+            // you can divide by 10 and take the remainder of the
+            // division by the by 10
+
+            int num = int.Parse(Console.ReadLine());
+            int a = num % 10;
+            int b = (num / 10) % 10;
+            int c = (num / 100) % 10;
+            int d = (num / 1000) % 10;
+
+            Console.WriteLine("The sum = {0}" ,(a + b + c + d));
+            Console.WriteLine("The reversed  = {0}{1}{2}{3}",d,a,b,c );
+            Console.WriteLine("Exchanges = {0}{1}{2}{3}", a, c, d, d);
+
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ Question 11
+ 
