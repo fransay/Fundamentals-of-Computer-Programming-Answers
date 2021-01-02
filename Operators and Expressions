@@ -235,3 +235,60 @@ namespace IntroductionToProgramming
 }    
 -----------------------------------------------------------------------------------------------
 Question 9
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // To know, if the point lies in the circle
+            // the distance between the point and the center
+            // must less than the radius
+
+            int x, y;
+            double radius = 5;
+            Console.Write("Enter your x coordinates = ");
+            x = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter your y coordinates = ");
+            y = int.Parse(Console.ReadLine());
+
+            //Calculating the distance between the point and the 
+            //radius 
+
+
+            double distanceBetweenThePointAndTheCenter = Math.Sqrt(Math.Pow(x, 2)
+                + Math.Pow(y, 2));
+            Console.WriteLine("The distance between the two points  = " + distanceBetweenThePointAndTheCenter);
+            if (y < 1 && y > 5 && x<-1 && x>5)
+            {
+                Console.WriteLine("The Point is outside the rectangle");
+            }
+            else
+            {
+                Console.WriteLine("The Point is inside the rectangle");
+            }
+            if (distanceBetweenThePointAndTheCenter < radius)
+            {
+                Console.WriteLine("The points lies in the circle");
+            }
+            else if (distanceBetweenThePointAndTheCenter > radius)
+            {
+
+                Console.WriteLine("The point does not lies in the circle");
+
+            }
+
+
+
+
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ Question 10
