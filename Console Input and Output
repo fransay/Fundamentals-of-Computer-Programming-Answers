@@ -46,4 +46,54 @@ namespace IntroductionToProgramming
  
  Question 3 
  
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // Question 3
+
+            Console.Write("Enter Company Name  = ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter Company's address  = ");
+            string address = Console.ReadLine();
+
+            Console.Write("Enter Company's phone number  = ");
+            int phoneNumber =int.Parse(Console.ReadLine());
+
+            Console.Write("Enter Company's fax Number  = ");
+            string faxNumber = Console.ReadLine();
+
+            Console.Write("Enter Company's Website  = ");
+            string website = Console.ReadLine();
+
+            Console.Write("Enter manager's name   = ");
+            string managerName  = Console.ReadLine();
+
+            Console.Write("Enter manager's surname  = ");
+            string managerSurname = Console.ReadLine();
+
+            Console.Write("Enter manager's phoneNumber Name  = ");
+            int managerPhoneNumber = int.Parse(Console.ReadLine());
+            
+
+            Console.WriteLine(name);
+            Console.WriteLine(address);
+            Console.WriteLine(phoneNumber);
+            Console.WriteLine(faxNumber);
+            Console.WriteLine(website);
+            Console.WriteLine(managerName);
+            Console.WriteLine(managerSurname);
+            Console.WriteLine(managerPhoneNumber);
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ Question 4
  
