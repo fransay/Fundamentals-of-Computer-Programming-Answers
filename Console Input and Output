@@ -1,0 +1,27 @@
+Question 1 
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // Question 1
+            // Reading Numbers from console
+            int numberOne = Convert.ToInt32(Console.ReadLine());
+            int numberTwo = Convert.ToInt32(Console.ReadLine());
+            int numberThree = Convert.ToInt32(Console.ReadLine());
+
+            //sum 
+            Console.WriteLine("The sum of the three numbers,{0}", (numberOne + numberTwo + numberThree));
+            Console.ReadLine();  
+        }
+    }
+}    
+ 
+ Question 2
+ 
+ 
