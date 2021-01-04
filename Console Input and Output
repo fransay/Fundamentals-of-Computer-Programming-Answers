@@ -23,5 +23,27 @@ namespace IntroductionToProgramming
 }    
  
  Question 2
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // Question 2
+
+            double radius = double.Parse(Console.ReadLine());
+            double area = Math.PI * Math.Pow(radius, 2);
+
+            Console.WriteLine("The area of the circle = {0}", area);
+            
+            Console.ReadLine();  
+        }
+    }
+}    
+ 
+ Question 3 
  
  
