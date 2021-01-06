@@ -156,4 +156,35 @@ namespace IntroductionToProgramming
 }    
  
  Question 7
- 
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your first Number = ");
+            int firstNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter your Second Number = ");
+            int secondNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter your third Number = ");
+            int thirdNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter your fourth Number = ");
+            int fourthNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter your fifth Number = ");
+            int fifthNumber = int.Parse(Console.ReadLine());
+
+            int sumOfallNumber = firstNumber + secondNumber + 
+                thirdNumber + fourthNumber + fifthNumber;
+
+            Console.WriteLine("The sum of the numbers are  = {0}", sumOfallNumber);
+            Console.ReadLine();  
+        }
+    }
+}    
+ Question 8
