@@ -134,3 +134,26 @@ namespace IntroductionToProgramming
     }
 }    
  
+Question 6
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int number1 = int.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine());
+            int compare = Math.Max(number1, number2);
+            Console.WriteLine("The greatest/ largest number is {0}",compare);
+
+
+            Console.ReadLine();  
+        }
+    }
+}    
+ 
+ Question 7
+ 
