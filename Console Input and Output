@@ -97,3 +97,40 @@ namespace IntroductionToProgramming
 }    
  Question 4
  
+ Question 5 
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // Question 5
+
+            Console.Write("Enter first Number = ");
+            int firstNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter second Number = ");
+            int secondNumber = int.Parse(Console.ReadLine());
+
+
+            for(int i = firstNumber; i <= secondNumber; i++)
+            {
+                
+                bool checkifIisDivisibleBy5 = i % 5 == 0;
+                if (checkifIisDivisibleBy5 == true)
+                {
+                    Console.WriteLine(i);
+                }
+                else
+                {
+                    continue;
+                }
+            }
+            Console.ReadLine();  
+        }
+    }
+}    
+ 
