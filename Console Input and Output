@@ -224,3 +224,52 @@ namespace IntroductionToProgramming
  
  Question 9
  
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("n = ");
+            int n = int.Parse(Console.ReadLine());
+            double sum = 0;
+            for (int i = 0; i < n ; i++)
+            {
+                Console.Write("Enter number  = ");
+                double number = double.Parse(Console.ReadLine());
+                sum += number;
+                
+            }
+            Console.WriteLine("SUM = {0}", sum);
+            Console.ReadLine();
+        }
+    }
+}    
+ 
+ Question 10 
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("n = ");
+            int n = int.Parse(Console.ReadLine());
+            int sum = 0;
+            for (int i = 0; i <= n ; i++)
+            {
+                Console.WriteLine(i);
+                sum += i;
+            }
+            Console.WriteLine("SUM = {0}", sum);
+            Console.ReadLine();
+        }
+    }
+}    
+
+ Question 11
+ 
