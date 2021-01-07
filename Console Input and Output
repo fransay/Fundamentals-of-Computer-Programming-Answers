@@ -273,3 +273,36 @@ namespace IntroductionToProgramming
 
  Question 11
  
+ using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Fibonacci sequence 
+            
+            int firstNumber = 0;
+            int secondNumber = 1;
+            int sum = 0;
+            Console.WriteLine(0);
+
+            for (int i =0; i <= 100; i++)
+            {
+                //Finding the sequence
+                int addResult = firstNumber + secondNumber ;
+                secondNumber = firstNumber;
+                firstNumber = addResult;
+                sum += addResult;
+                Console.WriteLine(addResult);
+                
+            }
+            Console.WriteLine("The sum of the sequence = {0}", sum);
+            Console.ReadLine();
+        }
+    }
+}    
+
+ Question 12 
+ 
