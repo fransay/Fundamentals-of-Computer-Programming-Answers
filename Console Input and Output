@@ -188,3 +188,39 @@ namespace IntroductionToProgramming
     }
 }    
  Question 8
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter number = ");
+            int firstnumber = int.Parse(Console.ReadLine());
+            Console.Write("Enter number = ");
+            int secondnumber = int.Parse(Console.ReadLine());
+            Console.Write("Enter number = ");
+            int thirdnumber = int.Parse(Console.ReadLine());
+            Console.Write("Enter number = ");
+            int fourthnumber = int.Parse(Console.ReadLine());
+            Console.Write("Enter number = ");
+            int fifthnumber = int.Parse(Console.ReadLine());
+
+            int[] comparearray = { firstnumber, secondnumber, thirdnumber, fourthnumber, fifthnumber };
+            // the Max function can not take more than 2 loads 
+            // Hence we use this approach
+            int compare1 = Math.Max(firstnumber, secondnumber);
+            int compare2 = Math.Max(thirdnumber, fourthnumber);
+            int compare3 = Math.Max(compare1, compare2);
+            int greatestNumber = Math.Max(compare3, fifthnumber);
+
+            Console.WriteLine("The greatest/maximum number  = {0}",greatestNumber);
+            Console.ReadLine();
+        }
+    }
+}    
+ 
+ Question 9
+ 
