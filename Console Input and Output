@@ -306,3 +306,42 @@ namespace IntroductionToProgramming
 
  Question 12 
  
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            decimal i = 1M;
+            decimal sum = 0;
+            int numberOftimestheLoopruns = 10;
+            
+
+
+            for (int y = 1; y <= numberOftimestheLoopruns; y++)
+            {
+                for (int x = 1; x <= numberOftimestheLoopruns; x++)
+                {
+                    if (y % 2 == 0)
+                    {
+                        Console.Write((i / x) + " - ");
+
+                    }
+                    else if (y % 2 == 1)
+                    {
+                        Console.Write((i / x) + " + " );
+                    }
+                    
+                    sum += ((i / x));
+                }
+
+            }
+            
+            Console.WriteLine("This is the sum {0}", sum);
+            Console.ReadLine();
+        }
+    }
+}    
+ 
