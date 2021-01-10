@@ -1,0 +1,33 @@
+Question 1
+
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int holder1, holder2;
+            Console.Write("First Number = ");
+            int firstNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Second Number = ");
+            int secondNumber = int.Parse(Console.ReadLine());
+
+            if (firstNumber > secondNumber)
+            {
+                holder1 = firstNumber;
+                holder2 = secondNumber;
+                secondNumber = holder1;
+                firstNumber = holder2;
+                Console.WriteLine("firstNumber {0} and SecondNumber {1}",
+                    firstNumber, secondNumber);
+            }
+            Console.ReadLine();
+        }
+    }
+}    
+ 
