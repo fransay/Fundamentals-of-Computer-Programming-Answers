@@ -1,6 +1,5 @@
 Question 1
 
-
 using System;
   
 namespace IntroductionToProgramming
@@ -25,6 +24,58 @@ namespace IntroductionToProgramming
                 firstNumber = holder2;
                 Console.WriteLine("firstNumber {0} and SecondNumber {1}",
                     firstNumber, secondNumber);
+            }
+            Console.ReadLine();
+        }
+    }
+}    
+ 
+Question 2
+
+Quesion 3
+
+using System;
+  
+namespace IntroductionToProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter first Number =  ");
+            int firstNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter second Number =  ");
+            int secondNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter third Number =  ");
+            int thirdNumber = int.Parse(Console.ReadLine());
+
+            if (firstNumber > secondNumber)
+            {
+                if (firstNumber > thirdNumber)
+                {
+                    Console.WriteLine("firstNumber {0} is greatest", firstNumber);
+                }
+                
+            }
+
+            else if (secondNumber > firstNumber)
+            {
+                if (secondNumber > thirdNumber)
+                {
+                    Console.WriteLine("SecondNumber {0} is greatest", secondNumber);
+                }
+
+            }
+
+            else if (thirdNumber > secondNumber)
+            {
+                if (thirdNumber> firstNumber)
+                {
+                    Console.WriteLine("ThirdNumber {0} is greatest", thirdNumber);
+                }
+
             }
             Console.ReadLine();
         }
