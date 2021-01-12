@@ -81,4 +81,62 @@ namespace IntroductionToProgramming
         }
     }
 }    
+
+
+ Question 5
+ Console.Write("Enter a digit of length from 0 to 9 = ");
+            int digit = int.Parse(Console.ReadLine());
+
+            // I need to convert the digit to string 
+
+            string digitTostringForm = digit.ToString();
+
+            switch (digit)
+            {
+                case 1:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+
+                    break;
+                case 2:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+                case 3:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+                case 4:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+
+                case 5:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+                case 6:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+                case 7:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+                case 8:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+                case 9:
+                    Console.WriteLine("Your number in string is form " +
+                        "is = {0}", digitTostringForm);
+                    break;
+                default:
+                    Console.WriteLine("This number isn't a digit");
+                    break;
+            }
+
+
+
+            Console.ReadLine();
  
