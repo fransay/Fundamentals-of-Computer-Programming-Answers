@@ -140,3 +140,32 @@ namespace IntroductionToProgramming
 
             Console.ReadLine();
  
+Question 7 
+Question 9
+            // A program that finds the greatest of five given numbers 
+            // Accepting input from user
+            Console.Write("Enter 1st number = ");
+            int firstNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter 2nd number = ");
+            int secondNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter 3rd number = ");
+            int thirdNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter 4th number = ");
+            int fourthNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter 5th number = ");
+            int fifthNumber = int.Parse(Console.ReadLine());
+
+            // Finding the maximum of the numbers
+
+            int compare1 = Math.Max(firstNumber, secondNumber);
+            int compare2 = Math.Max(thirdNumber, fourthNumber);
+            int compare3 = Math.Max(compare1, compare2);
+            int compare4 = Math.Max(compare3, fifthNumber);
+            
+            Console.WriteLine("The greatest Number is = {0}", compare4);
+            
+   Question 10
