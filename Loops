@@ -11,6 +11,20 @@ Question 1
 
             Console.ReadLine();
             
+            
 Question 2 
 
+            Console.Write("Enter N = ");
+            int N = int.Parse(Console.ReadLine());
+           
+
+            for (int i= 0; i<=N;i++)
+            {
+                if (i % (3 * 7) != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            
+Question 3
 
