@@ -48,6 +48,51 @@ Console.Write("Enter N = ");
             Console.ReadLine();
             
 Question 6
+
+Console.Write("Enter K = ");
+            int K = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("N should be greater than K");
+
+            Console.Write("Enter N = ");
+            int N = int.Parse(Console.ReadLine());
+
+            if (K < 1)
+            {
+                Console.Write("Sorry can't continue with'" +
+                    "the operation");
+            }
+
+            // Finding for K!
+
+            BigInteger Kfactorial = 1;
+            while (K > 1)
+            {
+                Kfactorial *= K;
+                K--;
+                
+            }
+            Console.WriteLine("KFactorial : " + Kfactorial);
+
+
+            // Finding for N!
+
+            BigInteger Nfactorial = 1;
+            if (N < K)
+            {
+                Console.WriteLine("Sorry, Can't continue the operation");
+
+            }
+            while (N > K)
+            {
+                Nfactorial *= N;
+                N--;
+
+            }
+            Console.WriteLine("NFactorial : " + Nfactorial);
+            
+            
+ 
 Question 7
 Question 8
 Question 9
