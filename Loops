@@ -27,4 +27,28 @@ Question 2
             }
             
 Question 3
+Question 4
+Question 5
 
+Console.Write("Enter N = ");
+            int N = int.Parse(Console.ReadLine());
+            int firstNumber = 0;
+            int secondNumber = 1;
+
+            for (int x = 1; x <= N; x++)
+            {
+                
+                int thirdNumber = firstNumber + secondNumber;
+
+                Console.WriteLine("Number: "+x + "  = "
+                    + thirdNumber);
+                firstNumber = secondNumber;
+                secondNumber = thirdNumber;
+            }
+            Console.ReadLine();
+            
+Question 6
+Question 7
+Question 8
+Question 9
+Question 10
