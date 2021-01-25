@@ -1,1 +1,18 @@
+ Question 1 
+            Console.Write("n =");
+            int n = int.Parse(Console.ReadLine());
+            int[] ArrayOfnElements = new int[n];
+
+
+            for(int i = 1; i <= ArrayOfnElements.Length; i++)
+            {
+
+                ArrayOfnElements[i] = i;
+                Console.WriteLine(ArrayOfnElements[i] *5);
+
+
+            }
+            
+Question 2 
+
 
