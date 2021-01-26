@@ -1,4 +1,5 @@
  Question 1 
+ 
             Console.Write("n =");
             int n = int.Parse(Console.ReadLine());
             int[] ArrayOfnElements = new int[n];
@@ -13,9 +14,10 @@
 
             }
             
+            
 Question 2 
 
-// Question 2
+
             // Writing a program which reads 2 arrays from the 
             // Console and checking if they are the same 
 
@@ -65,5 +67,7 @@ Question 2
                     Console.WriteLine("The arrays are equal");
                 }
             }
+
+Question 3
 
 
