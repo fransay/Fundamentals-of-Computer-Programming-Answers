@@ -15,4 +15,55 @@
             
 Question 2 
 
+// Question 2
+            // Writing a program which reads 2 arrays from the 
+            // Console and checking if they are the same 
+
+            // Get array size from user 
+
+
+            Console.Write("Size of 1st Array?  = ");
+            int SizeOffirstArray = int.Parse(Console.ReadLine());
+
+            Console.Write("Size of the 2nd Array  = ");
+            int SizeOfSecondArray = int.Parse(Console.ReadLine());
+
+            int[] FirstArray = new int[SizeOffirstArray];
+            int[] SecondArray = new int[SizeOfSecondArray];
+
+            for(int z = 0; z < SizeOffirstArray; z++)
+            {
+                Console.Write("Fill First Array = ");
+                int r = int.Parse(Console.ReadLine());
+                FirstArray[z] = r;
+
+            }
+            for(int x = 0; x < SizeOfSecondArray; x++)
+            {
+                Console.Write("Fill Second Array = ");
+                int p = int.Parse(Console.ReadLine());
+                SecondArray[x] = p;
+
+            }
+
+            // Compare the size of both arrays
+
+            int compare = Math.Max(SizeOffirstArray, SizeOfSecondArray);
+            // Checking if the array are the same 
+            for (int t = 0; t < compare; t++)
+            {
+                if (FirstArray[t] != SecondArray[t])
+                {
+                    Console.WriteLine("Sorry, the arrays are not equal");
+                }
+                else if (FirstArray.Length != SecondArray.Length)
+                {
+                    Console.WriteLine("Sorry the arrays are not equal");
+                }
+                else
+                {
+                    Console.WriteLine("The arrays are equal");
+                }
+            }
+
 
